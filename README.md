@@ -1,19 +1,21 @@
 Step 1: 
+"git clone https://github.com/habijm/RekWeb-UMKM.git"
+
+Step 2: 
 "composer install" pada kedua file
 
-Step 2:
+Step 3:
 "cp .env.example .env" copy paste file .env.example ke .env
 
-Step 3:
+Step 4:
 sesuaikan nama database
 
-Step 4:
+Step 5:
 "php artisan migrate:fresh --seed"
 
-Step 5:
+Step 6:
 "php -S 127.0.0.2:8001 -t public" = Route API
 "php artisan serve" = Route Laravel
-
 
 
 email: admin@gmail.com
